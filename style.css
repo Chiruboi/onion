@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 22px;
+}
+
+img {
+  width: 320px;
+
+}
+
+.onion h1 {
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 88px;
+  margin-bottom: 11px;
+  
+}
+
+.onion img{
+  filter: brightness(140%);
+}
+
+#switch-off{
+  display: none;
+}
+
+.switches {
+  width: 180px;
+}
