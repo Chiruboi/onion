@@ -19,7 +19,120 @@
       <img class="switches" id="switch-off" src="pics/light switch (off).png" alt="light switch" onclick="switchOff()">
     </div>
   </div>
-    
+
+
+   <section class="submit" id="submit">
+    <h2>Please fill in the information:</h2>
+    <form action="mailto:ajujex17@gmail.com" method="post" enctype="text/plain">
+      <div class="name-number">
+        <div>
+          <label for="full-name">Full name: </label><br>
+          <input type="text" id="full-name">
+        </div>
+        
+        <div>
+          <label for="phone-number">Phone number: </label><br>
+          <input type="number" id="phone-number">
+        </div>
+      </div>
+
+      <div class="speak-arabic">
+        <p>Do you know how to speak Arabic? </p>
+
+        <div>
+          <label for="yes">yes</label>
+          <input type="radio" id="yes" name="yes-no-arabic" value="yes">
+          
+          <label for="no">no</label>
+          <input type="radio" id="no" name="yes-no-arabic" value="no">
+        </div>
+      </div>
+
+      <div class="label-left-input-right">
+        <p>What is your current state with the Qur'an? </p>
+        <div>
+          <div>
+            <label for="A">I can read but with difficulties </label>
+            <label for="B">I cannot read at all </label>
+            <label for="C">I can read but make a lot of mistakes </label>
+            <label for="D">I can read perfectly with no mistakes </label>
+          </div>
+          
+          <div>
+            <input type="radio" name="read-quran" id="A" value="I can read but with difficulties">
+            <input type="radio" name="read-quran" id="B" value="I cannot read at all">
+            <input type="radio" name="read-quran" id="C" value="I can read but make a lot of mistakes">
+            <input type="radio" name="read-quran" id="D" value="I can read perfectly with no mistakes">
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <p>Which languages do you speak? </p>
+
+        <div class="languages">
+          <label for="Arabic">Arabic <input type="checkbox" id="Arabic" value="Arabic"></label>
+          <label for="English">English <input type="checkbox" id="English" value="English"></label>
+          <label for="Somali">Somali <input type="checkbox" id="Somali" value="Somali"></label>
+          <label for="Swahili">Swahili <input type="checkbox" id="Swahili" value="Swahili"></label>
+        </div>
+
+      </div>
+
+      <div class="label-left-input-right">
+        <p>What times are you available? </p>
+
+        <div>
+          <div>
+            <label for="any-time">I am available any time </label>
+            <label for="nights-only">I am available at nights only </label>
+            <label for="day-only">I am available during the day only </label>
+            <label for="certain-times">I am availableat certain times </label>
+          </div>
+          
+          <div>
+            <input type="radio" name="available-time" id="any-time" value="I am available any time">
+            <input type="radio" name="available-time" id="nights-only" value="I am available at nights only">
+            <input type="radio" name="available-time" id="day-only" value="I am available during the day only">
+            <input type="radio" name="available-time" id="certain-times" value="I am availableat certain times">
+            <div class="state-the-times">
+              <label for="certain-times">State the times: </label>
+              <input type="text" name="available-time" id="certain-times">
+            </div>
+          </div>
+
+          
+        </div>
+      </div>
+
+      <div class="label-left-input-right">
+        <p>What are your expectations with the Qur'an? </p>
+        
+        <div >
+          <div>
+            <label for="read">
+              I want to be able to read the Qur'an with tajweed and no mistakes by the end of this course. 
+            </label>
+            <label for="memorize">
+              I want to be able to memorized a certain ajzaa of the Qur'an by the end of the course. 
+            </label>
+          </div>
+  
+          <div>
+            <input type="radio" name="read-or-memorize" id="read" value="I want to be able to read the Qur'an with tajweed and no mistakes by the end of this course.">
+            <input type="radio" name="read-or-memorize" id="memorize" value="I want to be able to memorized ac certain ajzaa of the Qur'an by the end of the course.">
+          </div>
+        </div>
+
+      </div>
+
+      <div class="button-refund">
+        <p>Get Ksh500 refunded to ur Mpesa by reffering a friend to us!!!</p>
+
+        <button type="submit">Submit here</button>
+      </div>
+    </form>
+  </section>
   <script src="script.js"></script>
 </body>
 </html>
